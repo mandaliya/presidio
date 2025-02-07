@@ -11,7 +11,7 @@ from presidio_anonymizer.entities import InvalidParamError
 from presidio_anonymizer.services.app_entities_convertor import AppEntitiesConvertor
 from werkzeug.exceptions import BadRequest, HTTPException
 
-DEFAULT_PORT = "3000"
+DEFAULT_PORT = "8080"
 
 LOGGING_CONF_FILE = "logging.ini"
 
